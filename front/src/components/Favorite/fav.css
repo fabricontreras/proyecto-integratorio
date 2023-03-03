@@ -1,0 +1,52 @@
+.Cardfav{
+    display: inline-block;
+    padding: 15px;
+    border-radius: 5px;
+    position: relative;
+    font-family: Times, Times New Roman, serif;
+    padding-bottom: 120px;
+}
+.IMGFav{
+    border-radius: 5px;
+    position: relative;
+    transition: 0.3s;
+    border-radius: 50%;
+}
+.IMGFav:hover {
+  box-shadow: 0px 0px 55px 10px #fff;
+}
+.Name{
+    color: #fff;
+    background: rgba(39, 15, 125, 0.6);
+    font-size: 20px;
+    width: 50%;
+    position: absolute;
+    bottom: 35%;
+    left: 26%;
+    border: solid 1px;
+
+}
+.Name:hover {
+  color: #af0;
+}
+.Raza{
+    position: absolute;
+    width: 45%;
+    font-size: 1.7em;
+    color: #fff;
+
+}
+.Raza:hover {
+  color: #fb0;
+}
+.Genero{
+    color: #fff;
+    position: absolute;
+    right: 10%;
+    width: 25%;
+    font-size: 1.7em;
+
+}
+.Genero:hover {
+  color: #fb0;
+}
